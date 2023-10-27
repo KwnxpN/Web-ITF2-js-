@@ -59,6 +59,16 @@ body {
     margin-bottom: 15px;
 }
 
+.username a {
+    text-decoration: none;
+    color: black;
+}
+
+.username a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
 .usernameInp {
     display: flex;
     height: 24px;
