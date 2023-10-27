@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    border: 3px solid grey;
+    width: 1024px;
+    margin: auto;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noti {
+    position: absolute;
+    display: grid;
+    background-color: red;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    right: 0;
+    bottom: 0;
+    place-items: center;
+    color: white;
+}
+
+.avatar {
+    background-color: grey;
+    overflow: auto;
+    width: 128px;
+    height: 128px;
+    border-radius: 9999px;
+    background-size: cover;
+}
+
+.profile {
+    position: relative;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.user_input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.username {
+    margin-bottom: 15px;
+}
+
+.usernameInp {
+    display: flex;
+    height: 24px;
+}
+
+.imgInp {
+    display: flex;
+    height: 24px;
+}
+
+.usernameInp button {
+    border: none;
+    background-color: #D0CFCD;
+    border-radius: 10px;
+    width: 30px;
+    height: 25px;
+}
+
+.usernameInp input {
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.usernameInp button:hover {
+    background-color: #B5B5B5;
+    cursor: pointer;
+}
+
+.imgInp button {
+    border: none;
+    background-color: #D0CFCD;
+    border-radius: 10px;
+    width: 30px;
+    height: 25px;
+}
+
+.imgInp button:hover {
+    background-color: #B5B5B5;
+    cursor: pointer;
+}
+
+
+.imgInp input {
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 300px);
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    gap: 10px;
+    padding: 50px;
+}
+
+.grid-items {
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#one {
+    grid-column: 1/3;
+}
+
+#five {
+    grid-row: 2/4;
+    grid-column: 3/4;
+}

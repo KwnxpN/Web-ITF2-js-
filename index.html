@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ITF-Lab</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="top">
+                <div class="profile">
+                    <!-- Avatar -->
+                    <div class="avatar" id="profileimg"></div>
+                    <div class="noti">2</div>
+                </div>
+                <div class="username"><p style="font-weight: 700;" id="my_username">Username, Gallery</p></div>
+                <div class="user_input">
+                    <!-- Input -->
+                    <div class="usernameInp"><label style="font-size: 14px;">Set Username</label><input type="text" id="get_username" style="margin-left: 5px;"><button type="submit" style="margin-left: 5px;" onclick="display()">set</button></div>
+                    <div class="imgInp"><label style="font-size: 14px;">Set the profile image URL</label><input type="text" id="get_url" style="margin-left: 5px;"><button type="submit" style="margin-left: 5px;" onclick="setimage()">set</button></div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="grid-items" id="one" style="background-image: url(/img/IMG_0357.JPG);"></div>
+                <div class="grid-items" id="two" style="background-image: url(/img/IMG_0015.JPG);"></div>
+                <div class="grid-items" id="three" style="background-image: url(/img/IMG_0022.JPG);"></div>
+                <div class="grid-items" id="four" style="background-image: url(/img/IMG_0103.JPG);"></div>
+                <div class="grid-items" id="five" style="background-image: url(/img/IMG_0112.JPG);"></div>
+                <div class="grid-items" id="six" style="background-image: url(/img/IMG_0774.JPG);"></div>
+                <div class="grid-items" id="seven" style="background-image: url(/img/IMG_0805.JPG);"></div>
+                <div class="grid-items" id="eight" style="background-image: url(/img/IMG_1129.JPG);"></div>
+                <div class="grid-items" id="nine" style="background-image: url(/img/IMG_1214.JPG);"></div>
+                <div class="grid-items" id="ten" style="background-image: url(/img/IMG_0456.jpg);"></div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
